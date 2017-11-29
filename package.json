@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-mods",
+  "version": "0.1.0",
+  "description": "Prettier + Airbnb + Our opinionated rules",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node genConfig.js",
+    "upgrade": "install-peerdeps --yarn --dev eslint-config-airbnb",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "fs-extra": "^4.0.2",
+    "get-pkg-repo": "^1.4.0",
+    "install-peerdeps": "^1.4.1",
+    "prettier": "^1.8.2"
+  },
+  "peerDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.4.0",
+    "prettier": "^1.8.2"
+  }
+}
